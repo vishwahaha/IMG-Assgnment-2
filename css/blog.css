@@ -1,0 +1,128 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+/* navbar */
+.nav-wrapper {
+  max-width: 1155px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navleft svg {
+  width: 49px;
+  height: 49px;
+  fill: black;
+}
+.navright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navright a {
+  font-family: "TypoPRO Bebas Neue";
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #263146;
+  margin: auto 10px;
+  padding: 10px;
+}
+/* blog cards */
+.blogs-wrapper {
+  max-width: 1155px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  flex-basis: 32%;
+  max-width: 32%;
+}
+@media screen and (max-width: 973px) {
+  .column {
+    flex-basis: 48%;
+    max-width: 48%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .column {
+    flex-basis: 95%;
+    max-width: 95%;
+  }
+}
+.blog-card {
+  box-shadow: 0 1px 3px 0 #bcbdbd, 0 0 0 1px #d4d4d5;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.card-img {
+  height: 200px;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+}
+.img-1 {
+  background-image: url("../assets/blog1.jpeg");
+}
+.img-2 {
+    background-image: url("../assets/blog2.png");
+}
+.img-3 {
+    background-image: url("../assets/blog3.png");
+}
+.img-4 {
+    background-image: url("../assets/blog4.jpeg");
+}
+.img-5 {
+    background-image: url("../assets/blog5.jpeg");
+}
+.img-6 {
+    background-image: url("../assets/blog6.png");
+}
+.card-heading {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.card-detail {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+.card-detail p {
+  font-size: 14px;
+  line-height: 10px;
+  padding: 1px 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+/* footer  */
+.med-icon {
+  text-align: center;
+}
+.med-icon a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.67);
+}
+.med-icon a:hover {
+  color: black;
+}
+footer {
+  background-color: #263146;
+}
+.foot-wrapper {
+  max-width: 1155px;
+  margin: auto;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 3px;
+  margin-top: 40px;
+}
