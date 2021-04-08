@@ -45,7 +45,7 @@ section {
   background-color: #f8d16c;
   margin: 6px 0;
 }
-@media only screen and (max-device-width: 750px) {
+@media screen and (max-width: 800px) {
   .navright {
     display: none;
   }
@@ -128,7 +128,7 @@ section {
   align-items: center;
   margin: 70px 10px;
 }
-@media only screen and (max-device-width: 973px) {
+@media screen and (max-width: 973px) {
   .list-item {
     position: relative;
     display: flex;
@@ -138,7 +138,7 @@ section {
     max-width: 46%;
   }
 }
-@media only screen and (max-device-width: 750px) {
+@media screen and (max-width: 800px) {
   .list-item {
     position: relative;
     display: flex;
@@ -219,7 +219,7 @@ section {
     flex-basis: 50%;
     max-width: 50%;
 }
-@media only screen and (max-device-width: 750px) {
+@media screen and (max-width: 800px) {
     .column {
       flex-basis: 90%;
       max-width: 90%;

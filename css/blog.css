@@ -51,7 +51,7 @@ body {
   margin: auto;
   display: none;
 }
-@media only screen and (max-device-width: 750px) {
+@media screen and (max-width: 800px) {
   .navright {
     display: none;
   }
@@ -74,7 +74,7 @@ body {
   flex-basis: 32%;
   max-width: 32%;
 }
-@media only screen and (max-device-width: 973px) {
+@media screen and (max-width: 973px) {
   .column {
     flex-basis: 40%;
     max-width: 40%;
@@ -83,7 +83,7 @@ body {
     justify-content: space-evenly;
   }
 }
-@media only screen and (max-device-width: 750px) {
+@media screen and (max-width: 800px) {
   .column {
     flex-basis: 95%;
     max-width: 95%;
