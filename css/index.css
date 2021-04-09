@@ -17,6 +17,7 @@ section {
   padding: 10px;
   max-width: 1155px;
   margin: auto;
+  top: 0;
 }
 .navleft img {
   width: 50px;
@@ -46,6 +47,12 @@ section {
   margin: 6px 0;
 }
 @media screen and (max-width: 800px) {
+  .intro-wrapper {
+    background: #293B52 !important;
+    background-image: none !important;
+    background-size: cover !important;
+    background-position: 0% 0% !important;
+  }
   .navright {
     display: none;
   }
@@ -66,7 +73,8 @@ section {
 /* other intro stuff*/
 .intro-wrapper {
   background-image: url("../assets/background.svg");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   height: 100vh;
 }
 .intro2 {
