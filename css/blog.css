@@ -155,17 +155,14 @@ body {
 }
 footer {
   background-color: #263146;
-  position: relative;
+  position: absolute;
   width: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: 100vh;
 }
 .foot-wrapper {
   max-width: 1155px;  
-  margin: 20px auto 0;
+  margin: auto;
   color: white;
   font-size: 14px;
   line-height: 20px;
-  padding: 5px;
 }
