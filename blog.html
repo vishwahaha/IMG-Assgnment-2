@@ -24,6 +24,7 @@
     ></script>
   </head>
   <body>
+    <div id="outer">
     <section id="navbar">
       <div class="nav-wrapper">
         <div class="navleft">
@@ -166,5 +167,17 @@
         <p>© 2021 Information Management Group</p>
       </div>
     </footer>
+  </div>
+  <script>
+      window.addEventListener("scroll", () => {
+    let scroll = window.scrollY;
+    if (scroll > 1) {
+      document.getElementById("navbar").classList.add("nav-scroll");
+    }
+    if(scroll <= 1) {
+      document.getElementById("navbar").classList.remove("nav-scroll");
+    }
+  });
+  </script>
   </body>
 </html>
