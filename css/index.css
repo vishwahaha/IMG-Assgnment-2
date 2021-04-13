@@ -89,17 +89,20 @@ section {
 }
 /* other intro stuff*/
 .intro-wrapper {
-  background-image: url("../assets/background.svg");
+  /* background-image: url("../assets/background.svg"); */
   background-size: contain;
   background-position: center;
-  background-repeat: repeat-y;
+  background-repeat: repeat-y ;
   height: 100vh;
+  margin-right: 0;
+  margin-left: 0;
+  background-image: linear-gradient(90deg, #293B52 50%, #f8d16c 50%, #f8d16c 100%);
 }
 .intro2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4rem auto 4rem;
+  margin: 8rem auto 4rem;
 }
 .intro-text {
   max-width: 50%;
