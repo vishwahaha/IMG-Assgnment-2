@@ -149,11 +149,13 @@ body {
   line-height: 20px;
   font-weight: 700;
   padding-left: 10px;
+  height: 50px;
 }
 .card-detail {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-between;
+  max-height: 42px;
 }
 .card-detail p {
   font-size: 14px;
