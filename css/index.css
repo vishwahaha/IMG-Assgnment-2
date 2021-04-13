@@ -92,6 +92,7 @@ section {
   background-image: url("../assets/background.svg");
   background-size: contain;
   background-position: center;
+  background-repeat: repeat-y;
   height: 100vh;
 }
 .intro2 {
